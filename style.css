@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>style.css</title>
+</head>
+<body>
+
+<style>
+
+*{ margin-left: 35px;
+  margin-right:35px;
+padding: 35px;
+background-color: white;
+color:black; }
+
+input{margin-left:43px;}
+img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.menu{margin-left:39px;
+font-size:15px; }
+
+.vll {
+    border-left: 38px solid #a1d0d0;
+    height: 976px;
+    position: absolute;
+    left: 0%;
+    margin-left: -3px;
+    top: 0;
+}
+.vl2 {
+    border-left: 38px solid #a1d0d0;
+    height: 2063px;
+    position: absolute;
+    left: 0%;
+    margin-left: -3px;
+    top: 0;
+}
+.vl3 {
+    border-left: 38px solid #a1d0d0;
+    height: 677px;
+    position: absolute;
+    left: 0%;
+    margin-left: -3px;
+    top: 0;
+}
+.vl4 {
+    border-left: 38px solid #a1d0d0;
+    height: 992px;
+    position: absolute;
+    left: 0%;
+    margin-left: -3px;
+    top: 0;
+}
+.vl5 {
+    border-left: 38px solid #a1d0d0;
+    height: 5000px;
+    position: absolute;
+    left: 0%;
+    margin-left: -3px;
+    top: 0;
+}
+.vl6 {
+    border-left: 38px solid #a1d0d0;
+    height: 880px;
+    position: absolute;
+    left: 0%;
+    margin-left: -3px;
+    top: 0;
+}
+
+div.menu {
+    background-color: #white;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.menu a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+div.menu a:hover {
+    background-color: #777;
+}
+
+body{
+background-color:white;}
+
+h1{size:60px;
+text-align:center;
+font-family:fantasy;
+color:#545454;
+}
+
+H3{ color: black;
+background-color: white;
+size:40px;
+font-family:inherit;
+text-align:center;
+margin-left:40px;
+margin-right:40px;}
+
+p{ size: 20px;
+text-align:left;
+margin-left:40px;
+margin-right:40px;
+font-family:Verdana;
+color:black;
+}
+
+li{size:20px;
+text-align:left;
+margin-left: 45px;
+font-family:Verdana;
+color:black;
+}
+
+
+table{
+    size:20px;
+  width:96%;
+text-align:left;
+margin-left:48px;
+font-family:Verdana;
+padding:7px;
+
+}
+</style>
+
+</body>
+</html>
