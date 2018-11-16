@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Akkoorden</title>
+<link rel="stylesheet" href="style.css" />
+<meta charset="UTF-8">
+<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+<!-- Tekst echt weergeven op de website-->
+</head>
+
+<body>
+<div class="menu">
+  <a href="index.html">Home</a>
+  <a href="Ontstaansgeschiedenis.html">Ontstaansgeschiedenis</a>
+  <a href="TG.html">Typen gitaren</a>
+  <a href="VS.html">Verschillende technieken</a>
+  <a href="Onderdelen van een gitaar.html">Onderdelen van een gitaar</a>
+  <a href="Akkoorden.html"><u>Akkoorden</u></a>
+</div>
+
+<div class="vl5"> </div>
+
+<h1> Akkoorden </h1>
+<table>
+<td>
+  <th>
+    <section id="pnj_show_guitar_widget-5" class="widget pnj_show_guitar_widget"><h2 class="widget-title">Zoek je akkoord!</h2>
+
+    <SCRIPT language="JavaScript">
+
+    function ShowGuitarChord(GuitarChordImage)
+    {
+        var root = document.guitarchords.root.options[document.guitarchords.root.selectedIndex].value;
+        var chordtype = document.guitarchords.chordtype.options[document.guitarchords.chordtype.selectedIndex].value;
+        var voicing = document.guitarchords.voicing.options[document.guitarchords.voicing.selectedIndex].value;
+        var GuitarChordImage = "https://www.theguitarlesson.com/showguitarchords.php?r=" + root + "&t=" + chordtype +"&v=" +voicing;
+        document.GuitarChord.src = GuitarChordImage;
+        var x = document.guitarchords.root.selectedIndex;
+        var y = document.guitarchords.chordtype.selectedIndex;
+        var roottext = document.guitarchords.root.options[x].text;
+        var chordtext = document.guitarchords.chordtype.options[y].text;
+        document.getElementById("guitarchordname").firstChild.nodeValue=roottext + " " + chordtext;
+    }
+
+    </SCRIPT>
+    <div class="style1">
+    <span id="guitarchordname" style="font-size:1.2em;font-weight:bold;">A major</span><br />
+    <img name="GuitarChord" style="border:1px solid #abadb3;" src="https://www.theguitarlesson.com/showguitarchords.php">
+    <form name="guitarchords">
+
+        <select name="root"  onChange="ShowGuitarChord()">
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+            <option value="E">E</option>
+            <option value="F">F</option>
+            <option value="G">G</option>
+        </select><br>
+
+        <select name="chordtype" onChange="ShowGuitarChord()">
+            <option value="maj">major</option>
+      <option value="m">m</option>
+      <option value="-add9">add9</option>
+            <option value="-aug">aug</option>
+            <option value="-b5">b5</option>
+            <option value="-dim">dim</option>
+            <option value="-sus4">sus4</option>
+            <option value="11">11</option>
+            <option value="13">13</option>
+            <option value="5">5</option>
+            <option value="6-9">6/9</option>
+            <option value="6">6</option>
+            <option value="7-aug-b9">7 augb9</option>
+            <option value="7-aug">7 aug</option>
+            <option value="7">7</option>
+            <option value="7-sharp-9">7#9</option>
+            <option value="7-sus4">7 sus4</option>
+            <option value="7b5">7b5</option>
+            <option value="7b9">7b9</option>
+            <option value="9-aug">9 aug</option>
+            <option value="9">9</option>
+            <option value="9-sharp-11">9#11</option>
+            <option value="9b5">9b5</option>
+            <option value="m-maj7">m(maj7)</option>
+            <option value="m11">m11</option>
+            <option value="m6-9">m6/9</option>
+            <option value="m6">m6</option>
+            <option value="m7">m7</option>
+            <option value="m7b5">m7b5</option>
+            <option value="m9">m9</option>
+            <option value="m9-maj7">m9(maj7)</option>
+            <option value="maj7">maj7</option>
+            <option value="maj7b5">maj7b5</option>
+            <option value="maj9">maj9</option>
+        </select><br>
+
+        <select name="voicing" onChange="ShowGuitarChord()">
+            <option value="chord1">Voicing 1</option>
+            <option value="chord2">Voicing 2</option>
+            <option value="chord3">Voicing 3</option>
+            <option value="chord4">Voicing 4</option>
+            <option value="chord5">Voicing 5</option>
+            <option value="chord6">Voicing 6</option>
+        </select>
+
+    </form>
+    </div> </th>
+<th>Er bestaan heel veel verschillende akkoorden, sommige zijn makkelijk en andere heel moeilijk. Een basisakkoord
+  is een akkoord waarbij je 3 snaren induwt en daardoor hoor je dus ook 3 klanken door elkaar. Alle basisakkroorden
+  hebben ook een majeur en een mineur variant. Majeurakkoorden hebben vaak een vrolijk en opgewekt klank, deze akkoorden worden
+  met dezelfde naam als het basisakkoord aangeduid, dus <emp>'C'</emp> of <emp>'G'</emp>. Mineurakkoorden hebben daarintegen
+  vaak een treurige of zielige klank, deze akkoorden worden aangeduid met: Basisakkoord +m, dus <emp>'Em'</emp> of <emp> 'Gm'</emp>.
+  Daarnaast heb je nog barré akkoorden, deze akkoorden zijn de eerste jaren vrij moeilijk om te spelen. Bij een barré akkoorden
+  moet je namelijk met je volledige wijsvinger een hele rij freds dichtduwen. Hierbij verandert de stand van de andere vingers
+  natuurlijk ook, hierdoor heb je vaak je pink nodig en dit kan in het begin heel onwennig voelen. Maar door veel te oefenen
+  kan je deze akkoorden uiteindelijk ook onder de knie krijgen. <br/>
+ Daarnaast krijg je met akkoorden ook nog te maken met slagritmes, als je bijvoorbeeld niet tokkelt. Slagritmes geven aan
+  hoe en in welk tempo je de snaren moet aanslaan. Het meeste voorkomende slagritme onder beginners is het kampvuurslagje:
+   D-D-U-U-D-U. Wat bekend naar beneden, beneden, omhoog, omhoog, naar beneden, omhoog. Daarnaast horen bij slagritmes ook
+    nog het aantal slagen per minuut, ook wel weergegeven als bpm: Beats per minute. Dit geeft het tempo
+   weer waarin je een bepaald slagritme moet spelen. Een metronoom kan dit tempo voor je aangeven.
+  <!-- en verder + plaatjes-->
+  <!-- CSS https://www.w3schools.com/howto/howto_js_filter_table.asp --> </th> </td>
+</table>
+<br/>
+<h1>Losse noten</h1>
+
+<p> Je kunt met een gitaar natuurlijk losse noten en akkoorden spelen. Losse noten klinken saaier dan een akkoord, omdat een akkoord
+  voller klinkt. Dit is niet zo raar, omdat je met je linker hand ook meer snaren ingedrukt moet houden.  Met een akkoord kun
+  je mensen makkelijker begeleiden, dan met losse noten. </p>
+<p> Hieronder staat een afbeelding van je hals van je gitaar. Je ziet de snaren met daarop per fred weergegeven welke noot je
+hoort als je je vinger op die toets zou leggen en de snaar zou aanslaan. Een kort toelichting op de afkortingen van de noten.
+Als een een noot staat met een <emp>'b'</emp> erachter, spreek je die noot uit als (letter van de noot)+es. Behalve als je de noot
+E hebt, dan heet het een <emp>'es'</emp>. Als er een b achterstaan betekent dat eigenlijk dat de toon een halvee toon lager
+klinkt als de originele noot. </p>
+<p style="text-align:center;"> <img src="noot.jpg" style= width:890px;height:400px; > </p>
+</body>
+</html>

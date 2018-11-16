@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>style.css</title>
+
+</head>
+<body>
+
+<style>
+
+*{ margin-left: 35px;
+  margin-right:35px;
+padding: 35px;
+background-color: white;
+color:black;
+
+}
+.style1 {
+  text-align: center;
+  margin-left:-60px;
+  height:400px;
+  width: 400px;
+}
+
+input{margin-left:43px;}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.menu{margin-left:39px;
+font-size:15px; }
+
+.vll {
+    border-left: 38px solid #a4d1e5;
+    height:100%;
+    position: absolute;
+    left: 0%;
+    margin-left: -3px;
+    top: 0;
+
+}
+.vl2 {
+    border-left: 38px solid #a4d1e5;
+    height: 215%;
+    position: absolute;
+    left: 0%;
+    margin-left: -3px;
+    top: 0;
+}
+.vl3 {
+    border-left: 38px solid #a4d1e5;
+    height: 194%;
+    position: absolute;
+    left: 0%;
+    margin-left: -3px;
+    top: 0;
+}
+.vl4 {
+    border-left: 38px solid #a4d1e5;
+    height: 100%;
+    position: absolute;
+    left: 0%;
+    margin-left: -3px;
+    top: 0;
+}
+.vl5 {
+    border-left: 38px solid #a4d1e5;
+    height: 124%;
+    position: absolute;
+    left: 0%;
+    margin-left: -3px;
+    top: 0;
+}
+.vl6 {
+    border-left: 38px solid #a4d1e5;
+    height: 100%;
+    position: absolute;
+    left: 0%;
+    margin-left: -3px;
+    top: 0;
+}
+
+div.menu {
+    background-color: #white;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.menu a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+div.menu a:hover {
+    background-color: #777;
+}
+
+body{
+background-color:white;
+font-family:'Quicksand';
+font-size: 19px;
+}
+
+h1{size:60px;
+text-align:center;
+font-family:'Allerta+Stencil';
+color:#545454;
+}
+h2 {size:60px;
+text-align:left;
+margin-left:40px;
+font-family:'Allerta+Stencil';
+color:#545454;
+}
+H3{ color: black;
+background-color: white;
+size:21px;
+font-family:'Quicksand';
+text-align:center;
+margin-left:40px;
+margin-right:40px;}
+
+p{
+text-align:left;
+margin-left:40px;
+margin-right:40px;
+ font-family:'Quicksand';
+ font-size: 19px;
+color:black;
+}
+
+li{
+text-align:left;
+margin-left: 45px;
+margin-right:35px;
+font-family:Verdana;
+color:black;
+font-family:'Quicksand';
+font-size: 19px;
+}
+
+
+table{
+  width:96%;
+text-align:left;
+margin-left:48px;
+padding:7px;
+}
+
+th{
+text-align:left;
+margin-left:40px;
+margin-right:42px;
+color:black;
+font-family:'Quicksand';
+font-size: 19px;}
+</style>
+
+</body>
+</html>
