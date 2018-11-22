@@ -37,16 +37,19 @@ font-size:15px; }
 .vll {
     border-left: 38px solid #a4d1e5;
     height:100%;
-    position: absolute;
     left: 0%;
+    position:fixed;
+    overflow:auto;
+    height: 100%;
     margin-left: -3px;
     top: 0;
 
 }
 .vl2 {
     border-left: 38px solid #a4d1e5;
-    height: 215%;
-    position: absolute;
+position:fixed;
+overflow:auto;
+height: 100%;
     left: 0%;
     margin-left: -3px;
     top: 0;
@@ -54,7 +57,9 @@ font-size:15px; }
 .vl3 {
     border-left: 38px solid #a4d1e5;
     height: 194%;
-    position: absolute;
+    position:fixed;
+    overflow:auto;
+    height: 100%;
     left: 0%;
     margin-left: -3px;
     top: 0;
@@ -62,7 +67,9 @@ font-size:15px; }
 .vl4 {
     border-left: 38px solid #a4d1e5;
     height: 100%;
-    position: absolute;
+    position:fixed;
+    overflow:auto;
+    height: 100%;
     left: 0%;
     margin-left: -3px;
     top: 0;
@@ -70,7 +77,9 @@ font-size:15px; }
 .vl5 {
     border-left: 38px solid #a4d1e5;
     height: 124%;
-    position: absolute;
+    position:fixed;
+    overflow:auto;
+    height: 100%;
     left: 0%;
     margin-left: -3px;
     top: 0;
@@ -78,7 +87,9 @@ font-size:15px; }
 .vl6 {
     border-left: 38px solid #a4d1e5;
     height: 100%;
-    position: absolute;
+    position:fixed;
+    overflow:auto;
+    height: 100%;
     left: 0%;
     margin-left: -3px;
     top: 0;
